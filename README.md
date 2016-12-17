@@ -46,7 +46,7 @@ Special thanks to:
 * &#9749; : _for keeping us awake._
 
 <br><br>
-![StackOverflow API call](http://imgur.com/a/peP2O)
+![StackOverflow API call](http://i.imgur.com/JTvQiLd.png)
 popular Stack Overflow question will be returned if there is no entry in database yet
 
 ![Add Snippet](http://imgur.com/a/IYFBz)
