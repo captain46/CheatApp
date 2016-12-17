@@ -52,7 +52,7 @@ popular Stack Overflow question will be returned if there is no entry in databas
 ![Add Snippet](http://imgur.com/a/IYFBz)
 add a new code snippet to the database
 
-![results](http://imgur.com/a/v0sMk)
+![results](http://imgur.com/1wCToNI)
 if there the topic is available in database, we will queue it first
 with the "result Result" button the choosen entry will be added to the browsers offline storage (in case if there is no internet connection during an exam ;) ) 
 
