@@ -49,7 +49,7 @@ Special thanks to:
 ![StackOverflow API call](http://i.imgur.com/JTvQiLd.png)
 popular Stack Overflow question will be returned if there is no entry in database yet
 
-![Add Snippet](http://imgur.com/a/IYFBz.png)
+![Add Snippet](http://i.imgur.com/KtbwPtJ.png)
 add a new code snippet to the database
 
 ![results](http://imgur.com/1wCToNI.png)
