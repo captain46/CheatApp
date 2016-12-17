@@ -1,0 +1,13 @@
+CACHE MANIFEST
+
+#ﬁles, which are cached afer ﬁrst access
+CACHE:
+/index.jade
+
+#ﬁles, which are available only while online
+NETWORK:
+*
+
+#what to do when an offline user attempts to access an uncached ﬁle
+FALLBACK:
+/index.jade

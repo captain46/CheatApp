@@ -1,0 +1,32 @@
+
+
+nav.navbar.navbar-default
+    .container-fluid
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+            button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            a.navbar-brand(href='/') #[i.fa.fa-envira(aria-hidden='true')]
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+            ul.nav.navbar-nav
+                li.dropdown
+                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                        i.fa.fa-bars.fa-1x(aria-hidden='true')
+                    ul.dropdown-menu(aria-labelledby='dropdownMenu1')
+                        li
+                            button#showOfflineStorage.btn.btn-flat #[i.fa.fa-angle-right(aria-hidden='true')] Show Offline Storage
+                        li
+                            button#clearOfllineStorage.btn.btn-flat #[i.fa.fa-angle-right(aria-hidden='true')] Remove All Saved Snippets
+                        li.divider(role='separator')
+                        li
+                            button#addSnippetButton.btn.btn-flat(type='button', data-toggle='modal', data-target='#myModal') #[i.fa.fa-angle-right(aria-hidden='true')] Add Snippet
+            div#searchBar
+                .col-lg-6
+                    .input-group
+                        span.input-group-btn
+                            button#getSearchResults.btn.btn-search(type='button', data-toggle='tooltip', data-placement='left', title='Click to search') #[i.fa.fa-angle-right(aria-hidden='true')]
+                        input#tags.form-control(type='text', placeholder='Search for...')

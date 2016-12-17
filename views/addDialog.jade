@@ -1,0 +1,33 @@
+script(src='/javascript/addScript.js', defer='')
+#myModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')
+    .modal-dialog(role='document')
+        .modal-content
+            .modal-header
+                button.close(type='button', data-dismiss='modal', aria-label='Close')
+                    span(aria-hidden='true') ×
+                h4#myModalLabel.modal-title #[i.fa.fa-angle-right(aria-hidden='true')] Add Snippet to Database
+            .modal-body
+                form#modalForm
+                    .input-group
+                        span.genericSpan.input-group-addon #[i.fa.fa-angle-right(aria-hidden='true')]
+                        input#title.form-control(type='text', placeholder='Title', aria-describedby='genericSpan')
+                    br
+                    .input-group
+                        span.genericSpan.input-group-addon #[i.fa.fa-angle-right(aria-hidden='true')]
+                        input#language.form-control(type='text', placeholder='Language', aria-describedby='genericSpan')
+                    br
+                    .input-group
+                        span.genericSpan.input-group-addon #[i.fa.fa-angle-right(aria-hidden='true')]
+                        input#tagList.form-control(type='text', placeholder='Title', aria-describedby='genericSpan')
+                    br
+                    .input-group
+                        span.genericSpan.input-group-addon #[i.fa.fa-angle-right(aria-hidden='true')]
+                        textarea#description(rows='4', cols='50', placeholder='Description' aria-describedby='genericSpan')
+                    br
+                    .input-group
+                        span.genericSpan.input-group-addon #[i.fa.fa-angle-right(aria-hidden='true')]
+                        textarea#code(rows='4', cols='50', placeholder='Code' aria-describedby='genericSpan')
+            .modal-footer
+                p#dbLog.bg-success
+                button.btn.btn-default(type='button', data-dismiss='modal') Close
+                button#addButton.btn.btn-primary(type='button') Save changes

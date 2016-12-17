@@ -1,0 +1,253 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #F5F5F5 !important;
+}
+
+
+a {
+  color: #00B7FF;
+}
+
+article {
+    padding: 50px;
+    width: 50%;
+}
+
+header {
+    padding: 1% 1% 1% 1%;
+    background-color: #424242;
+    color: #EEEEEE;
+}
+
+header > small {
+    margin-left: 0.5%;
+}
+
+
+.btn.btn-search {
+    background-color: #424242 !important;
+}
+
+.fa.fa-bars.fa-1x {
+    color: #4FC3F7 !important;
+}
+
+.fa.fa-angle-right {
+    color: #4FC3F7 !important;
+}
+
+
+.btn.btn-flat {
+    border-radius: 1px;
+    background-color: transparent;
+}
+
+.nav.navbar-nav {
+    width: 5%;
+}
+
+#searchBar {
+    padding: 0.5em 0em 0em 0em;
+    width: 50%;
+}
+
+#getSearchResults {
+    color: #4FC3F7 !important;
+}
+
+.genericSpan {
+    color: #4FC3F7 !important;
+    background-color: #424242 !important;
+    border-color: #424242 !important;
+}
+
+textarea {
+    width: 100%;
+}
+
+pre {
+    width: 100%;
+    background-color: #424242 !important;
+    color: white !important;
+}
+
+
+.resBox {
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 3em;
+    border-style: solid;
+    border-color: #E0E0E0;
+    border-radius: 1px;
+    border-width: 1px;
+    background-color: white;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100% !important;
+    height: 3%;
+    background-color: #212121;
+    padding: 0.5em 0em 0em 0em;
+    text-align: center;
+    color: #424242;
+}
+
+footer > small > i.fa.fa-angle-right {
+    color: #4FC3F7 !important;
+}
+
+footer > small > i.fa.fa-code {
+    color: #4FC3F7 !important;
+}
+
+#divider {
+    border-color: #424242 !important;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+#tags {
+    width: 100%;
+    border-radius: 1px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s !important;
+}
+
+.dropdown {
+    margin-left: 3.5%;
+}
+
+.btn.btn-default.dropdown-toggle {
+    border-radius: 1px !important;
+    color: #212121 !important;
+
+}
+
+.dropdown-menu {
+    border-radius: 1px;
+}
+
+.modal-header {
+    background-color: #212121;
+    color: white;
+}
+
+#searchLog {
+    margin-left: 5em;
+    width: 25%;
+}
+
+#offStor {
+
+    float: right;
+}
+
+/* With inspiration from:
+* http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video
+* Thanks!
+*/
+video#bgvid {
+    opacity: 0.9;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url('../videos/bhole.jpg') no-repeat;
+    background-size: cover;
+}
+
+.errorMessage {
+    color: #EEEEEE;
+}
+
+/* mobile phone: 320 x 480 */
+@media screen and (max-width: 360px) {
+
+    .h1, h1 {
+        font-size: 1.8em !important;
+    }
+
+    .h2, h2 {
+        font-size: 1.6em !important;
+    }
+
+    .h3, h3 {
+        font-size: 1.2em !important;
+        margin-left: 5px;
+    }
+
+    .nav {
+        float: left;
+        height: 10%;
+    }
+
+    #searchBar {
+        width: 95%;
+        margin-left: 25px;
+    }
+
+    p {
+        margin: 0px 5px 10px !important;
+    }
+
+    .label {
+        margin: 0px 5px 10px;
+        font-size: 0.8em !important
+    }
+
+    pre {
+        margin-top: 5px !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+
+    .persistLocal {
+        height: 40px;
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px
+    }
+
+    body {
+        font-size: 1em;
+    }
+
+    article {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .alert-danger {
+        width: 250%;
+    }
+
+    .resBox {
+        padding: 0.2em 0.2em 0.2em 0.2em;
+        margin-bottom: 1.5em;
+        border-style: solid;
+        border-color: #E0E0E0;
+        border-radius: 1px;
+        border-width: 1px;
+        background-color: white;
+    }
+
+    #offStor {
+        float: inherit;
+    }
+    
+    footer {
+        height: 10%;
+    }
+}

@@ -1,0 +1,12 @@
+// 404 Error Page
+   
+extends layout
+
+block content
+    video#bgvid(autoplay='', loop='', poster='/videos/bhole.jpg', muted='')
+        source(src='/videos/bhole2.mp4', type='video/mp4')
+    article
+        h1.errorMessage 404
+        h4.errorMessage Sorry, the page you requested (#{requestedURL}) is currently not available!
+        small Video source: NASA (Released under public domain)
+
